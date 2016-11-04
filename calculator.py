@@ -27,7 +27,7 @@ if __name__ == '__main__':
             print("That is not a number!")
             continue
             #If not a number - repeat program
-        operator = raw_input("Enter an operation: ")
+        operator = input("Enter an operation: ")
         #Import operation
         try:
             print(result(number1, number2, operator))
